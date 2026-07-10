@@ -1,0 +1,3 @@
+[submodule "themes/mjkud"]
+	path = themes/mjkud
+	url = https://github.com/linuxmatty/hugo-theme-mjkud
