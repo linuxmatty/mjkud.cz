@@ -1,0 +1,47 @@
+baseURL = 'https://matyasjankudlacek.cz/'
+locale = 'en-us'
+title = 'Matyáš Jan Kudláček'
+theme = 'mjkud'
+
+[menu]
+  [[menu.main]]
+  identifier = "about"
+  name = "About"
+  title = "About"
+  url = "/about"
+  weight = 10
+
+  [[menu.main]]
+  identifier = "cv"
+  name = "CV"
+  title = "CV"
+  url = "/cv"
+  weight = 20
+
+  [[menu.main]]
+  identifier = "friends"
+  name = "Friends"
+  title = "Become a Friend"
+  url = "/friends"
+  weight = 30
+
+  [[menu.main]]
+  identifier = "posts"
+  name = "Posts"
+  title = "Posts"
+  url = "/posts"
+  weight = 40
+
+  [[menu.main]]
+  identifier = "links"
+  name = "Links"
+  title = "Links"
+  url = "/links"
+  weight = 50
+
+  [[menu.main]]
+  identifier = "contact"
+  name = "Contact"
+  title = "Contact"
+  url = "/contact"
+  weight = 60
