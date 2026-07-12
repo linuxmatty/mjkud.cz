@@ -7,16 +7,24 @@
 
 /* LAYOUT */
 
+html {
+  margin: 0 auto;
+  height: 100%
+}
+
 body {
   color: black;
   font-family: 'Mona Sans', sans-serif;
   font-size: 120%;
   line-height: 1.5;
   margin: 0 auto;
+  height: 100%;
+}
 
-  min-height: calc(100vh + 19rem);
-  display: grid;
-  grid-template-rows: auto 1fr auto;
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 95%;
 }
 
 header {
@@ -25,12 +33,11 @@ header {
 }
 
 .content {
-  margin-bottom: 2rem;
-  padding-bottom: 2rem;
-  
-  justify-content: flex-start;
   width: 45rem;
-  margin: 0 auto;
+  margin: 2rem auto;
+  padding-bottom: 2rem;
+  flex-grow: 1;
+  flex-shrink: 0;
 }
 
 @media screen and (max-width: 55rem) {
@@ -160,9 +167,19 @@ footer {
   color: #ffffffd8;
   width: 100vw;
   margin: 0 auto;
-  padding: 0;
-  min-width: 100%;
-  height: 21rem;
+  padding-bottom: 2rem;
+  /* min-width: 100%;
+  height: 21rem; */
+  /* max-height: 21rem;
+  overflow: hidden;
+  transition: height 0.3s ease; */
+}
+
+@media screen and (max-width: 48rem) {
+  footer {
+    height: auto;
+    padding-top: calc(anchor-size(height) - 19rem);
+  }
 }
 
 .footer-container {
@@ -187,7 +204,7 @@ footer {
   flex-direction: column;
 }
 
-.footer-heading-main .footer-heading-h4 {
+.footer-heading-main, .footer-heading-h4 {
   margin-bottom: 2rem;
   font-weight: 600;
 }
