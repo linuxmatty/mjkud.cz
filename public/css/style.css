@@ -116,6 +116,12 @@ header {
   }
 }
 
+@media screen and (max-width: 25rem) {
+  .site-title {
+    display: none;
+  }
+}
+
 .site-header {
   max-width: 72rem;
 }
@@ -204,10 +210,6 @@ footer {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   font-size: 0.75rem;
   color: rgba(255, 255, 255, 0.3);
-}
-
-@media screen and (min-width: 50rem) {
-
 }
 
 /* LISTS */
