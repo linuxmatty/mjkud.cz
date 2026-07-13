@@ -2,7 +2,6 @@ baseURL = 'https://matyasjankudlacek.cz/'
 locale = 'en-us'
 title = 'Matyáš Jan Kudláček'
 theme = 'mjkud'
-favicon = true
 
 [markup]
   [markup.goldmark]
