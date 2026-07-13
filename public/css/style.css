@@ -21,6 +21,10 @@ body {
   height: 100%;
 }
 
+h2, h3, h4, h5, h6 {
+  margin-bottom: 0.25rem;
+}
+
 .page-wrapper {
   display: flex;
   flex-direction: column;
