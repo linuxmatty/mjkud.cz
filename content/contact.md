@@ -18,16 +18,18 @@ In order not to become even more socially isolated from my peers, I feel forced 
 - Whatsapp: +42 073 218 2383
 - Instagram: [linuxx](https://instagram.com/linuxx)
 
-## Social Media
-
-- Instagram[^1]: [linuxx](https://instagram.com/linuxx)
-- Reddit: [u/linuxmatty](https://reddit.com/u/linuxmatty)
-
 ## Miscellaneous
 
 - E-mail: [m@mjkud.cz](mailto:m@mjkud.cz)
 - Phone: +45 xx xx xx xx
 - [RSS Feed](https://matyasjankudlacek.cz/index.xml)
+
+## Social Media
+
+- Instagram[^1]: [linuxx](https://instagram.com/linuxx)
+- Reddit: [u/linuxmatty](https://reddit.com/u/linuxmatty)
+
+
 
 
 [^1]: Yeah yeah, I know.

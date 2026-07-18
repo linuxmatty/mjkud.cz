@@ -18,7 +18,7 @@
 				<link>http://localhost:1313/links/</link>
 				<pubDate>Fri, 10 Jul 2026 18:12:38 +0200</pubDate>
 				<guid>http://localhost:1313/links/</guid>
-				<description>&lt;p&gt;It is a custom of the Small Web community to mention their favourite personal websites. Here is my current list (continually updated).&lt;/p&gt;&#xA;&lt;h2 id=&#34;something&#34;&gt;Something&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Something (link)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;something-else&#34;&gt;Something else&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Something (link)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;I am also a part of some webrings. Those and their navigation &amp;ldquo;bars&amp;rdquo; are featured below.&lt;/p&gt;&#xA;&lt;p&gt;wr1&lt;/p&gt;&#xA;&lt;p&gt;wr2&lt;/p&gt;&#xA;&lt;p&gt;wr3&lt;/p&gt;</description>
+				<description>&lt;p&gt;It is a custom of the Small Web community to mention their favourite personal websites. Here is my current list (continually updated).&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://lukesmith.xyz/&#34;&gt;Luke Smith&lt;/a&gt; – FOSS, linguistics, &amp;ldquo;divestment from technological life&amp;rdquo; + many other topics&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://ericmurphy.xyz/&#34;&gt;Eric Murphy&lt;/a&gt; – mainly FOSS&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Apart from the links above, I am hoping my website could become a part of some webrings eventually. When that happens, this paragraph will be replaced by stuff to do with them.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Contact</title>
