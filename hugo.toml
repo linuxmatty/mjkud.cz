@@ -26,13 +26,9 @@ theme = 'mjkud'
         [markup.goldmark.extensions.extras.mark]
           enable = false
         [markup.goldmark.extensions.extras.subscript]
-          enable = false
+          enable = true
         [markup.goldmark.extensions.extras.superscript]
-          enable = false
-      [markup.goldmark.extensions.footnote]
-        backlinkHTML = '&#x21a9;&#xfe0e;'
-        enable = true
-        enableAutoIDPrefix = false
+          enable = true
       [markup.goldmark.extensions.passthrough]
         enable = false
         [markup.goldmark.extensions.passthrough.delimiters]
