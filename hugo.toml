@@ -56,10 +56,8 @@ theme = 'mjkud'
         title = true
     [markup.goldmark.renderHooks]
       [markup.goldmark.renderHooks.image]
-        enableDefault = false
         useEmbedded = 'auto'
       [markup.goldmark.renderHooks.link]
-        enableDefault = false
         useEmbedded = 'auto'
     [markup.goldmark.renderer]
       hardWraps = false

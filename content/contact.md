@@ -13,9 +13,9 @@ In order not to become even more socially isolated from my peers, I feel forced 
 
 ## Instant Messaging
 
-- Matrix: tba
-- Signal: tba
-- Whatsapp: +42 073 218 2383
+- Matrix: @mjkud:matrix.org
+- Signal: mjkud.73
+- Whatsapp: @mjkud
 - Instagram: [linuxx](https://instagram.com/linuxx)
 
 ## Miscellaneous
