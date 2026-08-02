@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+
+	<title>A shitbox as a step towards digital sovereignty (Nextcloud setup) | Matyáš Jan Kudláček</title>
+
+	<link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
+	<link rel="icon" href="/favicon.png" type="image/png" />
+	
+
+	</head>
+
+<body>
+
+	
+
+<div class="page-wrapper">
+
+<header class="site-header">
+  <nav class="site-nav">
+    <a class="logo hdr-center" href="https://matyasjankudlacek.cz/" >
+	    <img src="../../logo-red-1200.png", height="45pt">
+      <span class="site-title">Matyáš Jan Kudláček</span>
+    </a>
+    <button class="hamburger" id="hamburger">
+      <img src="../../hamburger.webp", height="20rem">
+    </button>
+    <ul class="nav-ul hdr-center" id="nav-ul">
+      
+      <li style="padding: 0.8rem;">
+        <a href="/about" class="nav-item">About</a>
+      </li>
+      
+      <li style="padding: 0.8rem;">
+        <a href="/cv" class="nav-item">CV</a>
+      </li>
+      
+      <li style="padding: 0.8rem;">
+        <a href="/friends" class="nav-item">Friends</a>
+      </li>
+      
+      <li style="padding: 0.8rem;">
+        <a href="/posts" class="nav-item">Posts</a>
+      </li>
+      
+      <li style="padding: 0.8rem;">
+        <a href="/links" class="nav-item">Links</a>
+      </li>
+      
+      <li style="padding: 0.8rem;">
+        <a href="/contact" class="nav-item">Contact</a>
+      </li>
+      
+    </ul>
+  </nav>
+</header>
+
+
+<script>
+	const hamburger = document.getElementById('hamburger');
+	const navul = document.getElementById('nav-ul');
+
+	hamburger.addEventListener('click', () => {
+		navul.classList.toggle('show');
+	});
+</script>
+
+<main class="content">
+
+
+<h1>A shitbox as a step towards digital sovereignty (Nextcloud setup)</h1>
+
+<p>Trying to selfhost basic services: attempt 953284753.</p>
+<p>Once again did the reality dawn on me. To check my upcoming appointments, I open&hellip; <em>Google Calendar</em>. To open one of my prehistoric files I had on a computer I put away in 2017, I open&hellip; <em>Google Drive</em>. To listen to music on my phone, I use&hellip; <em>YouTube Music</em> (ReVanced, true, but my point still stands). Preposterous!</p>
+<p>However, all past attempts at trying to create a home server went close to this:</p>
+<ol>
+<li>&ldquo;I wanna try to create a home server.&rdquo;</li>
+<li>Find an old computer, plug it in, install Ubuntu Server.</li>
+<li>Realize I don&rsquo;t know anything about servers or networking; spend 15 hours watching YouTube tutorials and reading blogs of people who have successfully accomplished this.</li>
+<li>Get completely lost, give up.</li>
+</ol>
+<p>Most of the time, the problem was making my shitbox computer available to &ldquo;the public&rdquo; (or rather, to me when I&rsquo;m outside of the reach of my network). There are so many possibilities &ndash; Tailscale, Headscale, Cloudflare Tunnel, reverse proxies&hellip; also I&rsquo;m a little stupid so that&rsquo;s that. This time, I decided to approach it differently: I rented a VPS and am going to document my attempts at making stuff work here, not having to worry about having to circumvent my ISP&rsquo;s limitation about not giving out public IPv4s.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> An expected bonus of making this blog is that when something explodes, I&rsquo;ll be able to go back and read how I made it work the last time.</p>
+<p>A non-exhaustive list of reasons why I&rsquo;m going to put myself through this:</p>
+<ol>
+<li>I get to use Big Tech products less.</li>
+<li>It&rsquo;s a step towards decentralization of the internet, which is cool.</li>
+<li>About three years ago I promised my mum I&rsquo;d sort through our family photos (which are dispersed over countless drives all around the house, with the photos dating back to maybe 2006?) and put them all in one place, which would be the home server. As you might have guessed, that hasn&rsquo;t happened yet.</li>
+</ol>
+<h2 id="vps-provider">VPS Provider</h2>
+<p>After careful consideration (i.e. approximately 5 AI prompts), I decided to go for <a href="https://hetzner.com/">Hetzner</a>. They offer reasonably priced, based-in-Europe VPS with good reviews. Since I&rsquo;m just in the &ldquo;testing&rdquo; phase for now, I decided to opt for the cheapest possible option: &ldquo;cost optimized server&rdquo; with 2 vCPUs, 4 GB RAM and 4 GB ROM at 6.64 EUR per month. For irrelevant reasons, I opted for the name &ldquo;kudlus&rdquo; (any resemblance to my surname is purely coincidental). Out of Nürnberg, Falkenstein and Helsinki, Hetzner&rsquo;s European data centers, I opted for Helsinki &ndash; not because it is the closest, the fastest or the best, but because it was the only one available. (It would have been the best for me to choose Nürnberg &ndash; according to <a href="https://cloudping.info">cloudping.info</a>, the latency is just 4 ms, compared to Helsinki&rsquo;s 47 ms and Falkenstein&rsquo;s 69 ms in Prague, Czech Republic).</p>
+<h2 id="initial-setup">Initial Setup</h2>
+<p>The Hetzner setup wizard made it easy to set up the most important of things &ndash; OS installation (I went for Ubuntu Server 26.04), ability to get a public IPv4 address (costing 0.00097 EUR / h), setting up SSH keys, add storage volumes (I did not do this yet), firewalls, backups, etc.</p>
+<p>Then, I followed a YouTube tutorial I don&rsquo;t have the link to anymore (sorry) setting up the SSH properly: disabling password authentication, the inability for <code>root</code> to log in and enabling authentication using SSH keys: (editing <code>/etc/ssh/sshd_config</code>)</p>
+<pre tabindex="0"><code>PasswordAuthentication no
+PermitRootLogin no
+PubkeyAuthentication yes
+</code></pre><p>Then, I decided to look up how to actually get my server to host some apps for me. At first, due to my laziness, I considered using <a href="https://coolify.io/">Coolify</a>; this plan failed rather quickly because my budget server didn&rsquo;t even meet the minimum system requirements (notably the CPU amount &ndash; Coolify itself needs at least 2 CPUs, which would leave nothing for the actual hosted apps). Abort mission, retreat. (Besides, damn that&rsquo;s heavy considering it&rsquo;s just supposed to install some apps)</p>
+<p>Browsing through a <a href="https://www.reddit.com/r/selfhosted/comments/121bkz8/idiots_guide_to_selfhosting/">Reddit thread called &ldquo;Idiot&rsquo;s guide to self-hosting&rdquo;</a> (perfect for me), I found <a href="https://yunohost.org/">Yunohost</a> (pronounced &ldquo;why you no host&rdquo;) promising to remove most of the headaches from selfhosting. All you need to do is to run a .sh file, wait until it finishes installing and voilà, all that&rsquo;s left is to install apps. But that&rsquo;s boring! I don&rsquo;t want my homelab to <em>actually work</em>, I want to suffer as it refuses to do what I want it to do! (translation: I might come back to this.)</p>
+<p>I found <a href="https://www.youtube.com/watch?v=GarMdDTAZJo">this YouTube tutorial</a> which lead me to realize I first need to run the apps locally using Docker. Meaning I first have to learn Docker. Meaning I first have to install Docker, which turned to be an <a href="https://docs.docker.com/engine/install/ubuntu/">unreasonably complex task</a> since the only package available through <code>apt</code>, <code>docker.io</code>, is not the one you&rsquo;re actually supposed to use.</p>
+<h2 id="nextcloud--npm">Nextcloud &amp; NPM</h2>
+<p>After getting the &ldquo;Hello from Docker!&rdquo; message from running hello-world, I followed the tutorial for installing <a href="https://github.com/nextcloud/all-in-one">Nextcloud (AIO)</a>. This tutorial assumes there is no existing web server or reverse proxy, which is true as of now. Surprisingly enough, I didn&rsquo;t run into any issues and am therefore able to report success! Visiting the server&rsquo;s public IPv4 address with the port 8080 appended to it resulted in me seeing the &ldquo;Nextcloud All-in-One setup&rdquo;.</p>
+<p>I have been greeted with a splash screen informing me that I&rsquo;m using the official Nextcloud installation method. I also typed in the domain that will be used for Nextcloud &ndash; nextcloud.kudlus.space &ndash; which left me with the error message &ldquo;DNS config is not set for this domain or the domain is not a valid domain!&rdquo;. It hasn&rsquo;t been configured indeed, and since the completion of this installation process seems to rely on that, I gave up my pride and followed a <a href="https://www.youtube.com/watch?v=DFUmfHqQWyg">TechHut YouTube tutorial</a>.</p>
+<p>I got through the Nextcloud installation and I set up my domain correctly (finally). Then, as I tried to use the Nginx Proxy Manager &ndash; which I accessed just fine on port 81 &ndash; I tried to set up a proxy host: <a href="http://proxy.kudlus.space/">http://proxy.kudlus.space/</a> that was to point to 62.238.63.244:81 (that is, where I just had NPM open), but that just didn&rsquo;t work. It was very strange, using <code>curl -v http://proxy.kudlus.space/</code> gave me a response of 200 OK but trying to access it through Firefox resulted in a 404 Not Found error. I have no idea what could have caused this.</p>
+<p>After I pulled out a sufficient amount of hair (genetics has it that I only have a few years left of this luxury anyway) and a random visit of <a href="http://kudlus.space">http://kudlus.space</a> (which gave me the &ldquo;Congratulations! You&rsquo;ve successfully started the Nginx Proxy Manager. If you&rsquo;re seeing this site then you&rsquo;re trying to access a host that isn&rsquo;t set up yet.&rdquo; message), I tried visiting <a href="http://proxy.kudlus.space">http://proxy.kudlus.space</a> one more time, out of desperation more than anything. The software has decided to show mercy, recognizing that I suffered enough and without me having to change anything, showed me the desired site. Must be a miracle (admittedly, I would have preferred the miracle to do its magic right away instead of after 30 minutes of debugging, but I&rsquo;m thankful anyway).</p>
+<p>The next step was generating an SSL certificate. To do this in NPM, you need an API key to edit zone DNS. This is where I came across a huge limitation of Namecheap &ndash; to use their API, one needs to have at least 20 domains, have at least 50 USD on their account or needs to have spent at least 50 USD in the past two years. I quickly dealt with this steaming pile of&hellip; regulations I don&rsquo;t necessarily agree with by quickly switching to Cloudflare (which, btw, is where this very website is also hosted). In a matter of tens of seconds, I had the desired API key in my posession without having paid a single cent more to Namecheap.</p>
+<p>Just like that, I was able to set up another proxy, this time <a href="https://nc-aio.kudlus.space">https://nc-aio.kudlus.space</a> (notice the https) to point to &ndash; you guessed it &ndash; the AIO interface of Nextcloud. Before I go back to where I was 4 paragraphs ago, I will create another proxy (this time <a href="https://nc.kudlus.space">https://nc.kudlus.space</a>) leading to port 11000 and having the following under &ldquo;Advanced&rdquo;:</p>
+<pre tabindex="0"><code>client_body_buffer_size 512k;
+proxy_read_timeout 86400s;
+client_max_body_size 0;
+</code></pre><p>This will allow me to access the actual Nextcloud Hub. And as such, the Nextcloud actually works as it should.</p>
+<p>Thank you for reading this article. Please note that more articles about this topic are to come.</p>
+<h2 id="links">Links</h2>
+<p>I&rsquo;m linking blog articles I read and liked, and which possibly helped me solve a problem.</p>
+<p><a href="https://boringtech.net/blog/intro-to-self-hosting-how-to-get-started-hosting-your-applications/">Intro to self-hosting. How to get started hosting your applications</a><br>
+<a href="https://ounapuu.ee/posts/2021/03/17/how-to-start-your-self-hosting-adventure/">How to start your self-hosting adventure: a high-level overview</a></p>
+<p>Some time ago, I also attended <a href="https://ondrejpacovsky.cz/">Ondřej Pacovský</a>&rsquo;s talk on InstallFest 2026 which I liked (in Czech): <a href="https://ondrejpacovsky.cz/talks/if26.pdf">Slides</a> / <a href="https://www.youtube.com/watch?v=e64q7W_-Pl8">Video</a></p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Yes, that makes the title of the article untrue, but I thought it was too good to change it. Sue me.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+
+</main>
+
+</div>
+	
+<footer>
+	<div class="footer-container">
+		<div class="footer">
+			<div class="footer-heading">
+				<h3 class="footer-heading-main">Matyáš Jan Kudláček</h3>
+				<p class="footer-text">Written with a healthy dose of hatred towards CSS.<br />Powered by <a href="https://gohugo.io/" style="color: inherit;">Hugo</a>.</p>
+			</div>
+			<div class="footer-heading">
+				<h4 class="footer-heading-h4">Pages</h4>
+				
+					<a class="footer-heading-a" href="/about">About</a>
+				
+					<a class="footer-heading-a" href="/cv">CV</a>
+				
+					<a class="footer-heading-a" href="/friends">Friends</a>
+				
+					<a class="footer-heading-a" href="/posts">Posts</a>
+				
+					<a class="footer-heading-a" href="/links">Links</a>
+				
+					<a class="footer-heading-a" href="/contact">Contact</a>
+				
+			</div>
+			<div class="footer-heading">
+				<h4 class="footer-heading-h4">Contact</h4>
+				<a class="footer-heading-a" href="mailto:m@mjkud.cz">m@mjkud.cz</a>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+
+</body>
+</html>
+

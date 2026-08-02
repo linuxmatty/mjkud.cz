@@ -3,6 +3,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://matyasjankudlacek.cz/posts/202608-homelab/</loc>
+    <lastmod>2026-08-02T02:13:01+02:00</lastmod>
+  </url><url>
+    <loc>https://matyasjankudlacek.cz/posts/</loc>
+    <lastmod>2026-08-02T02:13:01+02:00</lastmod>
+  </url><url>
     <loc>https://matyasjankudlacek.cz/links/</loc>
     <lastmod>2026-07-10T18:12:38+02:00</lastmod>
   </url><url>
@@ -18,17 +24,8 @@
     <loc>https://matyasjankudlacek.cz/</loc>
     <lastmod>2026-07-04T16:09:40+02:00</lastmod>
   </url><url>
-    <loc>https://matyasjankudlacek.cz/posts/my-second-post/</loc>
-    <lastmod>2026-07-04T16:03:45+02:00</lastmod>
-  </url><url>
-    <loc>https://matyasjankudlacek.cz/posts/</loc>
-    <lastmod>2026-07-04T16:03:45+02:00</lastmod>
-  </url><url>
     <loc>https://matyasjankudlacek.cz/about/</loc>
     <lastmod>2026-07-04T16:00:46+02:00</lastmod>
-  </url><url>
-    <loc>https://matyasjankudlacek.cz/posts/my-first-post/</loc>
-    <lastmod>2026-07-04T15:38:46+02:00</lastmod>
   </url><url>
     <loc>https://matyasjankudlacek.cz/categories/</loc>
   </url><url>

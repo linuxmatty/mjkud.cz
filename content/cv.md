@@ -3,6 +3,8 @@ date = '2026-07-04T16:13:39+02:00'
 title = 'Curriculum Vitae – Matyáš Jan Kudláček'
 +++
 
+_This is a temporary look of this page created by giving an AI chatbot my resumé and asking it to format it in Markdown. Eventually I'll find the time to make it look nicer, thank you for bearing with this for now. [See Typst version](https://typst.app/project/r78Zr7tYKr9yDQGitcy5Rg) (also to be redone but unlike this page, that was actually considered done at some point)._
+
 ## Work Experience
 
 **Automation Systems Developer**    
