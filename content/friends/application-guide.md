@@ -13,7 +13,7 @@ I understand that some questions may be considered too personal/intrusive by som
 
 ### Notes regarding filling the form out
 
-- The form itself is set in a way where each question unit takes up the entire width of the page. If the question unit consists of more questions, the main question is always on the left, with the one on the right usually asking for clarification, specification or expanding on the original question.
+- The form itself is set in a way where each question unit takes up the entire width of the page. If the question unit consists of more questions, the main question is always on the left, with the one on the right usually asking for clarification, specification or expanding on the original question. (The only exception to this is the DoB/gender line in Section 1. There, it is arranged this way as a space-saving measure / a way to use space more effectively.)
 
 - Multiple-choice questions are divided into two types -- single-select multiple choice (using radio "buttons" -- i.e. circle shaped selectors) and multi-select multiple choice (using checkboxes -- i.e. square shaped selectors). Please make sure to differentiate between these two to fill out the form correctly.
 
