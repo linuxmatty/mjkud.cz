@@ -10,7 +10,7 @@ Wanna become my friend? Fill out this short 62-page form where I ask inappropria
 
 ## Friendship
 
-[(FFA1EN) Friendship Application Form](/ffa1en-friendship-application-form.pdf)  
+[(FFA2EN) Friendship Application Form](/ffa2en-friendship-application-form.pdf)  
 [(FFU1EN) Friendship Personal Information Update Request](/ffu1en-friendship-information-update-request.pdf)
 
 ## Romantic relationship
