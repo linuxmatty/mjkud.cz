@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Home on Matyáš Jan Kudláček</title>
-		<link>https://matyasjankudlacek.cz/</link>
+		<link>http://localhost:1313/</link>
 		<description>Recent content in Home on Matyáš Jan Kudláček</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,54 +12,54 @@
 		
 			<lastBuildDate>Sun, 02 Aug 2026 23:49:57 +0200</lastBuildDate>
 		
-			<atom:link href="https://matyasjankudlacek.cz/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Identifier Guide</title>
-				<link>https://matyasjankudlacek.cz/friends/identifier-guide/</link>
+				<link>http://localhost:1313/friends/identifier-guide/</link>
 				<pubDate>Sun, 02 Aug 2026 23:49:57 +0200</pubDate>
-				<guid>https://matyasjankudlacek.cz/friends/identifier-guide/</guid>
+				<guid>http://localhost:1313/friends/identifier-guide/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Relationship Application Guide</title>
-				<link>https://matyasjankudlacek.cz/friends/application-guide/</link>
+				<link>http://localhost:1313/friends/application-guide/</link>
 				<pubDate>Sun, 02 Aug 2026 23:49:49 +0200</pubDate>
-				<guid>https://matyasjankudlacek.cz/friends/application-guide/</guid>
-				<description>&lt;p&gt;Thank you for choosing me as your future friend or romantic partner! This guide is to ensure that the application process to be one officially is as smooth as possible. Find the necessary steps below.&lt;/p&gt;&#xA;&lt;h2 id=&#34;friendship&#34;&gt;Friendship&lt;/h2&gt;&#xA;&lt;p&gt;Becoming a friend is the more streamlined process of the two. Simply visit the &lt;a href=&#34;https://matyasjankudlacek.cz/friends/&#34;&gt;Friends&lt;/a&gt; section of my website, download the &lt;a href=&#34;https://matyasjankudlacek.cz/ffa1en-friendship-application-form.pdf&#34;&gt;Friendship Application Form (id FFA1EN)&lt;/a&gt;, fill it out and give me the printed version of it in person. If you are unable to do that, please send me the digital version via e-mail.&lt;/p&gt;</description>
+				<guid>http://localhost:1313/friends/application-guide/</guid>
+				<description>&lt;p&gt;Thank you for choosing me as your future friend or romantic partner! This guide is to ensure that the application process to be one officially is as smooth as possible. Find the necessary steps below.&lt;/p&gt;&#xA;&lt;h2 id=&#34;friendship&#34;&gt;Friendship&lt;/h2&gt;&#xA;&lt;p&gt;Becoming a friend is the more streamlined process of the two. Simply visit the &lt;a href=&#34;http://localhost:1313/friends/&#34;&gt;Friends&lt;/a&gt; section of my website, download the &lt;a href=&#34;http://localhost:1313/ffa1en-friendship-application-form.pdf&#34;&gt;Friendship Application Form (id FFA1EN)&lt;/a&gt;, fill it out and give me the printed version of it in person. If you are unable to do that, please send me the digital version via e-mail.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>A shitbox as a step towards digital sovereignty (Nextcloud setup)</title>
-				<link>https://matyasjankudlacek.cz/posts/202608-homelab/</link>
+				<link>http://localhost:1313/posts/202608-homelab/</link>
 				<pubDate>Sun, 02 Aug 2026 02:13:01 +0200</pubDate>
-				<guid>https://matyasjankudlacek.cz/posts/202608-homelab/</guid>
+				<guid>http://localhost:1313/posts/202608-homelab/</guid>
 				<description>&lt;p&gt;Trying to selfhost basic services: attempt 953284753.&lt;/p&gt;&#xA;&lt;p&gt;Once again did the reality dawn on me. To check my upcoming appointments, I open&amp;hellip; &lt;em&gt;Google Calendar&lt;/em&gt;. To open one of my prehistoric files I had on a computer I put away in 2017, I open&amp;hellip; &lt;em&gt;Google Drive&lt;/em&gt;. To listen to music on my phone, I use&amp;hellip; &lt;em&gt;YouTube Music&lt;/em&gt; (ReVanced, true, but my point still stands). Preposterous!&lt;/p&gt;&#xA;&lt;p&gt;However, all past attempts at trying to create a home server went close to this:&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Links</title>
-				<link>https://matyasjankudlacek.cz/links/</link>
+				<link>http://localhost:1313/links/</link>
 				<pubDate>Fri, 10 Jul 2026 18:12:38 +0200</pubDate>
-				<guid>https://matyasjankudlacek.cz/links/</guid>
+				<guid>http://localhost:1313/links/</guid>
 				<description>&lt;p&gt;It is a custom&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; of small websites (i.e. non-commercial, personal websites) to mention other interesting websites. Please find my humble, continuously updated contribution below.&lt;/p&gt;&#xA;&lt;h2 id=&#34;foss-enthusiasts&#34;&gt;FOSS Enthusiasts&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://lukesmith.xyz/&#34;&gt;Luke Smith&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://drewdevault.com/&#34;&gt;Drew DeVault&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://ericmurphy.xyz/&#34;&gt;Eric Murphy&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.foad.me.uk/&#34;&gt;Julian Foad&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://ounapuu.ee&#34;&gt;Herman Õunapuu&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;miscellaneous&#34;&gt;Miscellaneous&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://bell.bz/&#34;&gt;Andy Bell&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://kevquirk.com/&#34;&gt;Kev Quirk&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Apart from these links, I am hoping my website could become a part of (a/some) webring(s) eventually. When that happens, this paragraph will be replaced by stuff to do with them.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Contact</title>
-				<link>https://matyasjankudlacek.cz/contact/</link>
+				<link>http://localhost:1313/contact/</link>
 				<pubDate>Sat, 04 Jul 2026 16:15:59 +0200</pubDate>
-				<guid>https://matyasjankudlacek.cz/contact/</guid>
+				<guid>http://localhost:1313/contact/</guid>
 				<description>&lt;p&gt;In order not to become even more socially isolated from my peers, I feel forced to maintain &amp;ldquo;normie&amp;rdquo; channels of communication alongside channels I would actually prefer to use (i.e. privacy-respecting channels). The links themselves are ordered in my order of preference – if you&amp;rsquo;re in a position to choose a channel, I will be forever thankful if you opt for one as high up as possible.&lt;/p&gt;&#xA;&lt;h2 id=&#34;instant-messaging&#34;&gt;Instant Messaging&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Matrix&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;: @mjkud:matrix.org&lt;/li&gt;&#xA;&lt;li&gt;Signal: mjkud.73&lt;/li&gt;&#xA;&lt;li&gt;Whatsapp: @mjkud&lt;/li&gt;&#xA;&lt;li&gt;Instagram: &lt;a href=&#34;https://instagram.com/linuxx&#34;&gt;linuxx&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;miscellaneous&#34;&gt;Miscellaneous&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;E-mail: &lt;a href=&#34;mailto:m@mjkud.cz&#34;&gt;m@mjkud.cz&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://matyasjankudlacek.cz/index.xml&#34;&gt;RSS Feed&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;social-media&#34;&gt;Social Media&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Instagram&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;: &lt;a href=&#34;https://instagram.com/linuxx&#34;&gt;linuxx&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Reddit: &lt;a href=&#34;https://reddit.com/u/linuxmatty&#34;&gt;u/linuxmatty&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;&#xA;&lt;hr&gt;&#xA;&lt;ol&gt;&#xA;&lt;li id=&#34;fn:1&#34;&gt;&#xA;&lt;p&gt;Not convinced? &lt;a href=&#34;https://blog.foad.me.uk/2021/05/11/why-friends-ask-friends-to-matrix-me/&#34;&gt;Julian Foad wrote an excellent article&lt;/a&gt; expressing my opinions better than I could (though I can&amp;rsquo;t say I tried). Disclaimer: I too am somewhat new to Matrix, please be lenient. Disclaimer 2: it is on my to-do list to set up a homeserver on my own domain, so please don&amp;rsquo;t get this username tattooed or something.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Curriculum Vitae – Matyáš Jan Kudláček</title>
-				<link>https://matyasjankudlacek.cz/cv/</link>
+				<link>http://localhost:1313/cv/</link>
 				<pubDate>Sat, 04 Jul 2026 16:13:39 +0200</pubDate>
-				<guid>https://matyasjankudlacek.cz/cv/</guid>
+				<guid>http://localhost:1313/cv/</guid>
 				<description>&lt;p&gt;&lt;em&gt;This is a temporary look of this page created by giving an AI chatbot my resumé and asking it to format it in Markdown. Eventually I&amp;rsquo;ll find the time to make it look nicer, thank you for bearing with this for now. &lt;a href=&#34;https://typst.app/project/r78Zr7tYKr9yDQGitcy5Rg&#34;&gt;See Typst version&lt;/a&gt; (also to be redone but unlike this page, that was actually considered done at some point).&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;work-experience&#34;&gt;Work Experience&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Automation Systems Developer&lt;/strong&gt; &lt;br&gt;&#xA;Enerfis, s. r. o. | June 2025 – Present&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>About Me</title>
-				<link>https://matyasjankudlacek.cz/about/</link>
+				<link>http://localhost:1313/about/</link>
 				<pubDate>Sat, 04 Jul 2026 16:00:46 +0200</pubDate>
-				<guid>https://matyasjankudlacek.cz/about/</guid>
+				<guid>http://localhost:1313/about/</guid>
 				<description>&lt;p&gt;Hello this page is apparently supposed to contain some interesting information about myself. Sadly there isn&amp;rsquo;t anything interesting about me so this sentence has to be here as a placeholder.&lt;/p&gt;</description>
 			</item>
 	</channel>
