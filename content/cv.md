@@ -8,7 +8,7 @@ _This is a temporary look of this page created by giving an AI chatbot my resum�
 ## Work Experience
 
 **Automation Systems Developer**    
-Enerfis, s. r. o. | June 2025 – Present  
+Enerfis, s. r. o. | June 2025 – present  
 
 **AI Ambassador & Consultant**    
 Urban Wolf, s. r. o. | May 2025 – November 2025  
@@ -21,7 +21,7 @@ Urban Wolf, s. r. o. | May 2025 – November 2025
 IB Diploma Programme | September 2027 – June 2028 -->
 
 **Struer Statsgymnasium**  
-IB Diploma Programme | August 2026 – June 2027
+IB Diploma Programme | August 2026 – present
 
 **Gymnázium Evolution, s. r. o.**    
 Eight-year General Gymnasium | September 2021 – June 2026  
