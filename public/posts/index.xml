@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Posts on Matyáš Jan Kudláček</title>
-		<link>http://localhost:1313/posts/</link>
+		<link>https://matyasjankudlacek.cz/posts/</link>
 		<description>Recent content in Posts on Matyáš Jan Kudláček</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,12 +12,12 @@
 		
 			<lastBuildDate>Sun, 02 Aug 2026 02:13:01 +0200</lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://matyasjankudlacek.cz/posts/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>A shitbox as a step towards digital sovereignty (Nextcloud setup)</title>
-				<link>http://localhost:1313/posts/202608-homelab/</link>
+				<link>https://matyasjankudlacek.cz/posts/202608-homelab/</link>
 				<pubDate>Sun, 02 Aug 2026 02:13:01 +0200</pubDate>
-				<guid>http://localhost:1313/posts/202608-homelab/</guid>
+				<guid>https://matyasjankudlacek.cz/posts/202608-homelab/</guid>
 				<description>&lt;p&gt;Trying to selfhost basic services: attempt 953284753.&lt;/p&gt;&#xA;&lt;p&gt;Once again did the reality dawn on me. To check my upcoming appointments, I open&amp;hellip; &lt;em&gt;Google Calendar&lt;/em&gt;. To open one of my prehistoric files I had on a computer I put away in 2017, I open&amp;hellip; &lt;em&gt;Google Drive&lt;/em&gt;. To listen to music on my phone, I use&amp;hellip; &lt;em&gt;YouTube Music&lt;/em&gt; (ReVanced, true, but my point still stands). Preposterous!&lt;/p&gt;&#xA;&lt;p&gt;However, all past attempts at trying to create a home server went close to this:&lt;/p&gt;</description>
 			</item>
 	</channel>

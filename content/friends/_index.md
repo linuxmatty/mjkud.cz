@@ -3,10 +3,10 @@ date = '2026-07-04T16:14:13+02:00'
 title = 'Become a Friend'
 +++
 
-Wanna become my friend? Fill out this short 62-page form where I ask inappropriately intrusive questions and three short months of bureaucracy later, even you can be my friend! [^*]
+Wanna become my friend? Fill out this short 62-page form where I ask inappropriately intrusive questions and three short months of bureaucracy later, even you can be my friend! (Conditions apply.)
 
-[Becoming a Friend Guide (to be uploaded)]()  
-[Document Identifier Guide (to be uploaded)]()
+[Relationship Application Guide](./application-guide)  
+[Identifier Guide (to be completed)](./identifier-guide)
 
 ## Friendship
 
@@ -17,6 +17,3 @@ Wanna become my friend? Fill out this short 62-page form where I ask inappropria
 
 Please [contact me](/contact) if you're interested.
 
-
-
-[^*]: Conditions apply.

@@ -1,6 +1,6 @@
 +++
 date = '2026-07-19T03:15:15+02:00'
-title = "This is the best article ever /hj (a rant about the /hj tone marker)"
+title = "This is the best article ever /hj (a rant about the /hj tone indicator)"
 draft = true
 +++
 
@@ -30,12 +30,12 @@ Let me begin by describing the usecases of this godforsaken ambiguation using ca
     - example 2: "Jokes on you! I'm using Arch, the audio doesn't work 😎" (after being sent a rickroll link)
 1. A text which isn't very funny nor to be taken as a joke in an isolated context, but in the context it is a way to point out a sincere problem while also being funny because of the context alone.
     - example: "Don't do it again, it doesn't suit you" (said to my friend after he spoke our mother tongue instead of English -- we communicate almost exclusively in English so I'm not used to hearing him speak anything other than that and is therefore making me feel weird)[^dontdoitagain]
-1. A "Schrödinger's joke" -- text where the author is unsure whether it actually is a joke or not when the message is being sent; this will be decided based on the reaction of the recipient(s) or other circumstances -- or "for legal reasons, a joke" -- a statement which the author actually agrees with, but is trying to pass it as a joke because he knows the recipient(s) don't agree / would argue / other reason. Could also be used as a way to "test the air". Obviously, due to the nature of this tone marker, it doesn't make sense to use it in actual conversations.
+1. A "Schrödinger's joke" -- text where the author is unsure whether it actually is a joke or not when the message is being sent; this will be decided based on the reaction of the recipient(s) or other circumstances -- or "for legal reasons, a joke" -- a statement which the author actually agrees with, but is trying to pass it as a joke because he knows the recipient(s) don't agree / would argue / other reason. Could also be used as a way to "test the air". Obviously, due to the nature of this tone indicator, it doesn't make sense to use it in actual conversations.
     - example: You reckon we could go to a restaurant?" (originally presented as a joke, but if we ended up going, I'd be happy)
 
-As it might already be apparent, relying on my neurodivergent brain to reliably decode the meaning is about as good of an idea as relying on a pencil sharpener to drive a bus. Therefore, I am going to attempt the impossible and try to use logic on the fundamentally illogical creatures called humans. Below is a "truth table" (or something vaguely related to that) of different types of jokes, the corresponding tone marker and a commentary. Going of the name "half-joke", I am assuming that the statement is split into two parts -- part 1 (P<sub>1</sub>) and part 2 (P<sub>2</sub>) (if it isn't split, we can assume the truth values for both Ps are equal). Then, we can tell if a statement is meant as a joke (J) and whether or not there is an underlying sentiment the speaker is trying to express (S). Furtermore, I will only be assuming one case of P<sub>1</sub> ≠ P<sub>2</sub> (i.e. ) I've given each line a number to be used when describing.
+As it might already be apparent, relying on my neurodivergent brain to reliably decode the meaning is about as good of an idea as relying on a pencil sharpener to drive a bus. Therefore, I am going to attempt the impossible and try to use logic on the fundamentally illogical creatures called humans. Below is a "truth table" (or something vaguely related to that) of different types of jokes, the corresponding tone indicator and a commentary. Going of the name "half-joke", I am assuming that the statement is split into two parts -- part 1 (P<sub>1</sub>) and part 2 (P<sub>2</sub>) (if it isn't split, we can assume the truth values for both Ps are equal). Then, we can tell if a statement is meant as a joke (J) and whether or not there is an underlying sentiment the speaker is trying to express (S). Furtermore, I will only be assuming one case of P<sub>1</sub> ≠ P<sub>2</sub> (i.e. ) I've given each line a number to be used when describing.
 
-| Line | P<sub>1</sub> | P<sub>2</sub> | M | Tone marker | Comment |
+| Line | P<sub>1</sub> | P<sub>2</sub> | M | Tone indicator(s) | Comment |
 |-|------------------|------------------|------------------|---------|-|
 |1| 0 | 0 | 0 | /srs | |
 |2| 0 | 0 | 1 |  | |
@@ -46,7 +46,7 @@ As it might already be apparent, relying on my neurodivergent brain to reliably 
 |7| 1 | 1 | 0 |  | |
 |8| 1 | 1 | 1 | /j | |
 
-Lines 1 and 8 are the most straightforward. None of the parts sounds like a joke and it isn't meant as a joke, therefore the statement is serious (/srs, though the tone marker probably wouldn't even be needed here) -- conversely, both parts of the statement sound like a joke and are meant as a joke, therefore it is a joke (/j).
+Lines 1 and 8 are the most straightforward. None of the parts sounds like a joke and it isn't meant as a joke, therefore the statement is serious (/srs, though the tone indicator probably wouldn't even be needed here) -- conversely, both parts of the statement sound like a joke and are meant as a joke, therefore it is a joke (/j).
 
 This is where it gets complicated. 
 
@@ -66,7 +66,7 @@ full meaning vs just the bare minimum
 
 
 
-Therefore, I am going to create brand new tone markers that I am going to start using. I am hoping that other people will start using them as well eventually and this way they will spread. Please find a list of my newly invented tone markers below (they correspond to the meanings mentioned above):
+Therefore, I am going to create brand new tone indicators that I am going to start using. I am hoping that other people will start using them as well eventually and this way they will spread. Please find a list of my newly invented tone indicators below (they correspond to the meanings mentioned above):
 
 - **/pbj -- point behind joke**: The statement itself is a joke (safe to assume it's untrue), but it's hinting at a sincere point.
 - **/wbf -- would be funny**: It would be funny to say this statement, but it isn't true.
