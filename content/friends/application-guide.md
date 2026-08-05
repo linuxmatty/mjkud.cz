@@ -1,6 +1,7 @@
 +++
 date = '2026-08-02T23:49:49+02:00'
 title = 'Relationship Application Guide'
+draft = true
 +++
 
 Thank you for choosing me as your future friend or romantic partner! This guide is to ensure that the application process to be one officially is as smooth as possible. Find the necessary steps below.

@@ -10,23 +10,9 @@
 		
 		
 		
-			<lastBuildDate>Sun, 02 Aug 2026 23:49:57 +0200</lastBuildDate>
+			<lastBuildDate>Sun, 02 Aug 2026 02:13:01 +0200</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-			<item>
-				<title>Identifier Guide</title>
-				<link>http://localhost:1313/friends/identifier-guide/</link>
-				<pubDate>Sun, 02 Aug 2026 23:49:57 +0200</pubDate>
-				<guid>http://localhost:1313/friends/identifier-guide/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Relationship Application Guide</title>
-				<link>http://localhost:1313/friends/application-guide/</link>
-				<pubDate>Sun, 02 Aug 2026 23:49:49 +0200</pubDate>
-				<guid>http://localhost:1313/friends/application-guide/</guid>
-				<description>&lt;p&gt;Thank you for choosing me as your future friend or romantic partner! This guide is to ensure that the application process to be one officially is as smooth as possible. Find the necessary steps below.&lt;/p&gt;&#xA;&lt;h2 id=&#34;friendship&#34;&gt;Friendship&lt;/h2&gt;&#xA;&lt;p&gt;Becoming a friend is the more streamlined process of the two. Simply visit the &lt;a href=&#34;http://localhost:1313/friends/&#34;&gt;Friends&lt;/a&gt; section of my website, download the &lt;a href=&#34;http://localhost:1313/ffa1en-friendship-application-form.pdf&#34;&gt;Friendship Application Form (id FFA1EN)&lt;/a&gt;, fill it out and give me the printed version of it in person. If you are unable to do that, please send me the digital version via e-mail.&lt;/p&gt;</description>
-			</item>
 			<item>
 				<title>A shitbox as a step towards digital sovereignty (Nextcloud setup)</title>
 				<link>http://localhost:1313/posts/202608-homelab/</link>
@@ -53,7 +39,7 @@
 				<link>http://localhost:1313/cv/</link>
 				<pubDate>Sat, 04 Jul 2026 16:13:39 +0200</pubDate>
 				<guid>http://localhost:1313/cv/</guid>
-				<description>&lt;p&gt;&lt;em&gt;This is a temporary look of this page created by giving an AI chatbot my resumé and asking it to format it in Markdown. Eventually I&amp;rsquo;ll find the time to make it look nicer, thank you for bearing with this for now. &lt;a href=&#34;https://typst.app/project/r78Zr7tYKr9yDQGitcy5Rg&#34;&gt;See Typst version&lt;/a&gt; (also to be redone but unlike this page, that was actually considered done at some point).&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;work-experience&#34;&gt;Work Experience&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Automation Systems Developer&lt;/strong&gt; &lt;br&gt;&#xA;Enerfis, s. r. o. | June 2025 – Present&lt;/p&gt;</description>
+				<description>&lt;p&gt;&lt;em&gt;This is a temporary look of this page created by giving an AI chatbot my resumé and asking it to format it in Markdown. Eventually I&amp;rsquo;ll find the time to make it look nicer, thank you for bearing with this for now. &lt;a href=&#34;https://typst.app/project/r78Zr7tYKr9yDQGitcy5Rg&#34;&gt;See Typst version&lt;/a&gt; (also to be redone but unlike this page, that was actually considered done at some point).&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;work-experience&#34;&gt;Work Experience&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Automation Systems Developer&lt;/strong&gt; &lt;br&gt;&#xA;Enerfis, s. r. o. | June 2025 – present&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>About Me</title>
