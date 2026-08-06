@@ -8,7 +8,7 @@ Thank you for choosing me as your future friend or romantic partner! This guide 
 
 ## Friendship
 
-Becoming a friend is the more streamlined process of the two. Simply visit the [Friends](/friends/) section of my website, download the [Friendship Application Form (id FFA1EN)](/ffa1en-friendship-application-form.pdf), fill it out and give me the printed version of it in person. If you are unable to do that, please send me the digital version via e-mail.
+Becoming a friend is the more streamlined process of the two. Simply visit the [Friends](/friends/) section of my website, download the Friendship Application Form, fill it out and give me the printed version of it in person. If you are unable to do that, please send me the digital version via e-mail.
 
 I understand that some questions may be considered too personal/intrusive by some. If you come across such a question, feel free to leave it unanswered; that said, the more information you provide to me, the better the means will be for me to contribute towards our friendship reaching its full potential. However, unless you have a major problem with it, I would like to kindly ask you to fill out the entirety of Section 1: General Information. These are questions I consider essential for our potential friendship.
 
@@ -24,7 +24,7 @@ I understand that some questions may be considered too personal/intrusive by som
 
 - No sensitive information submitted as a part of this form will be released to 3rd parties without consent.
 
-- If you're filling this form out on paper, ask me for a pen, I'll give you one (or more). :-)
+- If you're filling this form out on paper, ask me for a pen, I'll give you one (or more) with my logo on it. :-)
 
 ### After form submission
 
