@@ -10,10 +10,8 @@ Wanna become my friend? Fill out this short 62-page form where I ask inappropria
 
 ## Friendship
 
-[(FFA2EN) Friendship Application Form](/ffa2en-friendship-application-form.pdf)  
-[(FFU1EN) Friendship Personal Information Update Request](/ffu1en-friendship-information-update-request.pdf)
-
-## Romantic relationship
-
-Please [contact me](/contact) if you're interested.
-
+[<span style="font-family: 'Mona Sans Mono', monospace;">(FFA2608/03)</span> Application Form](/forms/ffa-260803-friendship-application-form.pdf)  
+[<span style="font-family: 'Mona Sans Mono', monospace;">(FFH2608/02)</span> Friendship Hiatus Request Form](/forms/ffh-260802-friendship-hiatus-request-form.pdf)  
+[<span style="font-family: 'Mona Sans Mono', monospace;">(FFI2608/02)</span> Incident Report Form](/forms/ffi-260802-incident-report-form.pdf)  
+[<span style="font-family: 'Mona Sans Mono', monospace;">(FFT2608/01)</span> Friendship Termination Form](/forms/fft-260801-friendship-termination-form.pdf)  
+[<span style="font-family: 'Mona Sans Mono', monospace;">(FFU2608/01)</span> Personal Information Update Request](/forms/ffu-260801-personal-information-update-request.pdf)  
