@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Become a Friend on Matyáš Jan Kudláček</title>
-		<link>http://localhost:1313/friends/</link>
+		<link>https://matyasjankudlacek.cz/friends/</link>
 		<description>Recent content in Become a Friend on Matyáš Jan Kudláček</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,6 +12,6 @@
 		
 			<lastBuildDate></lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/friends/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://matyasjankudlacek.cz/friends/index.xml" rel="self" type="application/rss+xml" />
 	</channel>
 </rss>
