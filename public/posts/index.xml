@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Posts on Matyáš Jan Kudláček</title>
-		<link>http://localhost:1313/posts/</link>
+		<link>https://matyasjankudlacek.cz/posts/</link>
 		<description>Recent content in Posts on Matyáš Jan Kudláček</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,13 +12,20 @@
 		
 			<lastBuildDate>Sun, 02 Aug 2026 02:13:01 +0200</lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://matyasjankudlacek.cz/posts/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>A shitbox as a step towards digital sovereignty (Nextcloud setup)</title>
-				<link>http://localhost:1313/posts/202608-homelab/</link>
+				<link>https://matyasjankudlacek.cz/posts/202608-homelab/</link>
 				<pubDate>Sun, 02 Aug 2026 02:13:01 +0200</pubDate>
-				<guid>http://localhost:1313/posts/202608-homelab/</guid>
+				<guid>https://matyasjankudlacek.cz/posts/202608-homelab/</guid>
 				<description>&lt;p&gt;Trying to selfhost basic services: attempt 953284753.&lt;/p&gt;&#xA;&lt;p&gt;Once again did the reality dawn on me. To check my upcoming appointments, I open&amp;hellip; &lt;em&gt;Google Calendar&lt;/em&gt;. To open one of my prehistoric files I had on a computer I put away in 2017, I open&amp;hellip; &lt;em&gt;Google Drive&lt;/em&gt;. To listen to music on my phone, I use&amp;hellip; &lt;em&gt;YouTube Music&lt;/em&gt; (ReVanced, true, but my point still stands). Preposterous!&lt;/p&gt;&#xA;&lt;p&gt;However, all past attempts at trying to create a home server went close to this:&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>This is the best article ever /hj (hopelessness caused by the /hj tone indicator)</title>
+				<link>https://matyasjankudlacek.cz/posts/202607-half-joking/</link>
+				<pubDate>Sun, 19 Jul 2026 03:15:15 +0200</pubDate>
+				<guid>https://matyasjankudlacek.cz/posts/202607-half-joking/</guid>
+				<description>&lt;style&gt;&#xA;    li {&#xA;        margin: 0.5rem 0;&#xA;    }&#xA;&#xA;    td, th {&#xA;        padding: 0 0.8rem;&#xA;    }&#xA;&lt;/style&gt;&#xA;&lt;p&gt;Tone indicators are definitely among my favourite features of written language used on the internet. During an in-person conversation, the tone of voice, facial expression and overall body language of your conversation partner would (ideally) give away if they&amp;rsquo;re joking, being sarcastic or something of similar nature. When you lead a conversation on the internet though, it usually takes place in written form &amp;ndash; meaning these cues (which might already be difficult to spot for some) get completely lost. Thankfully &amp;ndash; given that the writer is enlightened enough to use them &amp;ndash; tone indicators come to the rescue and bluntly state (or &lt;em&gt;indicate&lt;/em&gt;, if you may), well, the &lt;em&gt;tone&lt;/em&gt; of the message. But&amp;hellip; are they really as unambiguous as they like to pretend to be? &lt;em&gt;(spoiler alert: no)&lt;/em&gt;&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>

@@ -1,7 +1,7 @@
 +++
 date = '2026-07-19T03:15:15+02:00'
-title = "This is the best article ever /hj (a rant about the /hj tone indicator)"
-draft = true
+title = "This is the best article ever /hj (hopelessness caused by the /hj tone indicator)"
+draft = false
 +++
 
 <style>
@@ -18,6 +18,8 @@ Tone indicators are definitely among my favourite features of written language u
 
 As jan Misali pointed out [in their video](https://www.youtube.com/watch?v=3bYXy1jT3m8), there are at least 3 distinct ways to interpret the /hj indicator. In my mind, that's enough of a reason for it to be plunged into the depths of obscurity; in this article, I would like to map out as many possible meanings of this indicator as possible and assign a new indicator to each of the meanings. (As per this German saying: "Ordnung muss sein!"[^ordnung])
 
+## Half-jo... what?
+
 Let me begin by describing the usecases of this godforsaken ambiguation using cases by bringing up messages where I actually used it while texting. Ironically, cases where the meaning is an actual half-joke are only a small minority. Also, it is completely possible that I used /hj where /s or /j would have been more appropriate -- sorry about that in advance and I still don't know the damn difference between /s and /j. _Disclaimer: there is approximately a very high chance that I&nbsp;forgot a possible meaning._
 
 1. A text whose literal meaning isn't true (or meant sincerely), but the point behind it, or the problem illustrated by it, is a sincere point or an actual problem.
@@ -30,10 +32,13 @@ Let me begin by describing the usecases of this godforsaken ambiguation using ca
     - example 2: "Jokes on you! I'm using Arch, the audio doesn't work 😎" (after being sent a rickroll link)
 1. A text which isn't very funny nor to be taken as a joke in an isolated context, but in the context it is a way to point out a sincere problem while also being funny because of the context alone.
     - example: "Don't do it again, it doesn't suit you" (said to my friend after he spoke our mother tongue instead of English -- we communicate almost exclusively in English so I'm not used to hearing him speak anything other than that and is therefore making me feel weird)[^dontdoitagain]
-1. A "Schrödinger's joke" -- text where the author is unsure whether it actually is a joke or not when the message is being sent; this will be decided based on the reaction of the recipient(s) or other circumstances -- or "for legal reasons, a joke" -- a statement which the author actually agrees with, but is trying to pass it as a joke because he knows the recipient(s) don't agree / would argue / other reason. Could also be used as a way to "test the air". Obviously, due to the nature of this tone indicator, it doesn't make sense to use it in actual conversations.
+1. A "Schrödinger's joke" -- text where the author is unsure whether it actually is a joke or not when the message is being sent; this will be decided based on the reaction of the recipient(s) or other circumstances -- or "for legal reasons, a joke" -- a statement which the author actually agrees with, but is trying to pass it as a joke because he knows the recipient(s) don't agree / would argue / other reason. Could also be used as a way to "test the air". Obviously, due to the nature of this tone indicator, it usually doesn't make sense to use it in actual conversations.
     - example: You reckon we could go to a restaurant?" (originally presented as a joke, but if we ended up going, I'd be happy)
 
-As it might already be apparent, relying on my neurodivergent brain to reliably decode the meaning is about as good of an idea as relying on a pencil sharpener to drive a bus. Therefore, I am going to attempt the impossible and try to use logic on the fundamentally illogical creatures called humans. Below is a "truth table" (or something vaguely related to that) of different types of jokes, the corresponding tone indicator and a commentary. Going of the name "half-joke", I am assuming that the statement is split into two parts -- part 1 (P<sub>1</sub>) and part 2 (P<sub>2</sub>) (if it isn't split, we can assume the truth values for both Ps are equal). Then, we can tell if a statement is meant as a joke (J) and whether or not there is an underlying sentiment the speaker is trying to express (S). Furtermore, I will only be assuming one case of P<sub>1</sub> ≠ P<sub>2</sub> (i.e. ) I've given each line a number to be used when describing.
+As it might already be apparent, relying on my neurodivergent brain to reliably decode the meaning is about as good of an idea as relying on a pencil sharpener to drive a bus. Therefore, I am going to attempt the impossible and try to use logic on the fundamentally illogical creatures called humans. 
+
+## The approach of the mathematician in me
+Below is a "truth table" (or something vaguely related to that) of different types of jokes, the corresponding tone indicator and a commentary. Going of the name "half-joke", I am assuming that the statement is split into two parts -- part 1 (P<sub>1</sub>) and part 2 (P<sub>2</sub>) (if it isn't split, we can assume the truth values for both Ps are equal). Then, we can tell if a statement is meant as a joke (J) and whether or not there is an underlying sentiment the speaker is trying to express (S). Furtermore, I will only be assuming one case of P<sub>1</sub> ≠ P<sub>2</sub> (i.e. ) I've given each line a number to be used when describing.
 
 | Line | P<sub>1</sub> | P<sub>2</sub> | M | Tone indicator(s) | Comment |
 |-|------------------|------------------|------------------|---------|-|
@@ -46,38 +51,40 @@ As it might already be apparent, relying on my neurodivergent brain to reliably 
 |7| 1 | 1 | 0 |  | |
 |8| 1 | 1 | 1 | /j | |
 
-Lines 1 and 8 are the most straightforward. None of the parts sounds like a joke and it isn't meant as a joke, therefore the statement is serious (/srs, though the tone indicator probably wouldn't even be needed here) -- conversely, both parts of the statement sound like a joke and are meant as a joke, therefore it is a joke (/j).
+Lines 1 and 8 are the most straightforward. None of the parts sounds like a joke and it isn't meant as a joke, therefore the statement is serious (/srs, though the tone indicator probably wouldn't even be needed here) -- conversely, both parts of the statement sound like a joke and are meant as a joke, therefore it is a joke (/j). 
 
-This is where it gets complicated. 
+...unless it gets turned into a joke in the process -- it might not have been meant as a joke, but the circumstances (which the joke-sayer might not have realised) might have made a completely mundane sentence into a hilarious joke. Since I'm already having enough trouble assessing static expressions free of context, I will ignore this for now.
 
-Line 2 -- There is no indication in the statement itself that it is a joke, but it is in fact meant as one. I believe this corresponds to the first three usecases stated above -- i.e. using a funny/absurd statement to bring up a serious point, saying a funny/absurd statement that isn't meant 
+Line 2 -- There is no indication in the statement itself that it is a joke, but it is in fact meant as one. I believe this corresponds to the first three usecases stated above -- i.e. using a funny/absurd statement to bring up a serious point, saying a funny/absurd statement that isn't meant 100% as a joke, etc.
 
-line 3
+## Okay so no
 
-line 4
+As much as I hate to say it, this is already where this method is starting to fall apart. Line 2 already requires at least 3 different tone markers that I would have to create, most lines seem like they would be overlapping, and I'm having struggle completing the rest of the "tone indicator" column of the table. To be honest, I'm publishing this just because I invested way too much time in thinking about it -- it unfortunately isn't at all functional. Laying out the structures and meanings I could come up with is one thing -- applying it however, that is a whole another beast, and as it turned out, something I am not capable of doing. Against my preference, human speech doesn't fall into my neat little categories that I made and I found myself unable to sort most expressions -- be it because I was unable to divide them into exactly two parts (where the division would make sense for this), because the "is a joke -- isn't a joke" axis turned out not to be binary, or any other issues that I now struggle to think of.
 
-line 5
+I will therefore slightly change the original intention of this article -- trying to understand what people mean when they use the /hj tone indicator -- and instead I'll try to "be the change I want to see in the world" (or whatever the overused obnoxious saying is). I will try to come up with certain tone indicators with a narrower meaning to use instead of /hj so that other people (hopefully) understand me better than I understand them.
 
-line 6
+Side-note: it would obviously be naive to expect that everyone will adopt these instantly (or ever, actually). I am not expecting anyone to adopt these just by reading this article -- what I am hoping to do is that people might see me use them, get used to it after a while, notice their usefulness and the decreased amount of ambiguity and through that, adopt them themselves.
 
-line 7
-
-full meaning vs just the bare minimum
-
-
-
-Therefore, I am going to create brand new tone indicators that I am going to start using. I am hoping that other people will start using them as well eventually and this way they will spread. Please find a list of my newly invented tone indicators below (they correspond to the meanings mentioned above):
+Please find a list of my newly invented tone indicators below (they roughly correspond to the meanings mentioned above):
 
 - **/pbj -- point behind joke**: The statement itself is a joke (safe to assume it's untrue), but it's hinting at a sincere point.
-- **/wbf -- would be funny**: It would be funny to say this statement, but it isn't true.
-- **/fw -- funny wording**: self-explanatory
-- **/**
-- **/Sj  -- Schrödinger's joke**: self-explanatory
-- **/legj -- legal joke**: a.k.a. "for legal reasons, a joke". The difference between /legj and /Sj is that while an /Sj statement 
+- **/wbf -- would be funny**: It would be funny to say this statement in this given context, but it isn't true.
+- **/fw -- funny wording**: Intentionally absurd phrasing was used to put across a fact that is actually true.[^fw-useless]
+- **/cj -- contextual joke**: An expression which isn't funny or to be considered a joke when isolated -- the context, likely a reference to either an inside joke or to something that happened in the conversation earlier, is what makes it funny.
+- **/Sj  -- Schrödinger's joke**: A joke that gets sent/said without a clear intention. Whether it will be declared as a joke or seriously depends on the recipient's reaction to it.
+- **/lj -- legally a joke**: a.k.a. "for legal reasons, a joke". Attempts to obfuscate the true intentions or thoughts of the joke-sayer by saying the statement is a joke -- however, from context it is clear that it is meant sincerely.
 
+## Social interactions are actually stochastic
 
+For communicating with people that use the /hj tone indicator at least somewhat regularly, it seems that their true intentions will remain a secret to me. /hj (Look at me! I can also use bullshit tone indicators!)
 
+However, herein lies another problem. This is an actual case where I would use the /hj tone indicator. But what do I mean by that? Well, to be completely honest, I don't really know either. When I feel too tired or whatever to come up with proper responses, I just became the man from the "Random bullshit go!" meme, slap some words I find together, attempt to make it sound at least remotely funny, slap this tone indicator at the end and call it a day.
+
+This is what I mean by the heading. A stochastic process is a process whose output has a certain degree of randomness -- and as much as I hate the /hj tone indicator and the ambiguity it causes, I do believe that sometimes there isn't (or rather, I cannot find) a better alternative that would convey everything I want it to. Maybe it's just the name I hate...? (Where's the half anyway?) Isn't it a funny paradox where I can't stop using something I don't understand myself when it's used by others?
+
+Thank you for reading this relatively lengthy article. There might be other articles coming soon, maybe.
 
 
 [^ordnung]: Complete digression: the [english Wikipedia page](https://en.wikipedia.org/wiki/Ordnung_muss_sein) about this proverb is surprisingly interesting.
 [^dontdoitagain]: The more I'm thinking about this example, the more unsure I am about how I would classify this. If you have any insights regarding this, please [let me know](/contact).
+[^fw-useless]: Admittedly this tone indicator might be a bit useless as this will be apparent in most cases. However, I believe it doesn't hurt to mention it; after all, more information is better than not enough information in this case.
