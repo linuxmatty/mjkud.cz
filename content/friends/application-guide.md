@@ -1,14 +1,14 @@
 +++
 date = '2026-08-02T23:49:49+02:00'
 title = 'Relationship Application Guide'
-draft = true
+draft = false
 +++
 
 Thank you for choosing me as your future friend or romantic partner! This guide is to ensure that the application process to be one officially is as smooth as possible. Find the necessary steps below.
 
 ## Friendship
 
-Becoming a friend is the more streamlined process of the two. Simply visit the [Friends](/friends/) section of my website, download the Friendship Application Form, fill it out and give me the printed version of it in person. If you are unable to do that, please send me the digital version via e-mail.
+Becoming a friend is the more streamlined process of the two. Simply visit the [Befriend me](/befriend/) section of my website, download the Friendship Application Form, fill it out and give me the printed version of it in person. If you are unable to do that, please send me the digital version via e-mail.
 
 I understand that some questions may be considered too personal/intrusive by some. If you come across such a question, feel free to leave it unanswered; that said, the more information you provide to me, the better the means will be for me to contribute towards our friendship reaching its full potential. However, unless you have a major problem with it, I would like to kindly ask you to fill out the entirety of Section 1: General Information. These are questions I consider essential for our potential friendship.
 

@@ -1,6 +1,6 @@
 +++
 date = '2026-07-19T03:15:15+02:00'
-title = "This is the best article ever /hj (hopelessness caused by the /hj tone indicator)"
+title = "This is the best article ever /hj (hopelessness included)"
 draft = false
 +++
 

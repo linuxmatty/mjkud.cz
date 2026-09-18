@@ -80,10 +80,10 @@ theme = 'mjkud'
   weight = 20
 
   [[menu.main]]
-  identifier = "friends"
-  name = "Friends"
-  title = "Become a Friend"
-  url = "/friends"
+  identifier = "befriend"
+  name = "Befriend me"
+  title = "Befriend me"
+  url = "/befriend"
   weight = 30
 
   [[menu.main]]
