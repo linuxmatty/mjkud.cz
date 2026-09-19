@@ -1,6 +1,6 @@
 baseURL = 'https://matyasjankudlacek.cz/'
 locale = 'en-us'
-title = 'Matyáš Jan Kudláček'
+title = 'Matyas Jan Kudlacek'
 theme = 'mjkud'
 
 [markup]
