@@ -1,0 +1,20 @@
++++
+date = '2026-09-23T16:37:06+02:00'
+title = 'The cost of free Danish lessons'
++++
+
+This article is to describe my today's adventurous experience. 
+
+This is an offer I got through Kirsten, the head of the boarding school I live in. Weekly "Begynder dansk" (beginner Danish) lessons in "Ung-Struer". I already know some Danish – I've been learning it for approximately the past three years – but I still wanted to improve my skills.
+
+Since I am a slave to big-tech corporations, I whipped out my Google Maps, searched for "Ung Struer", clicked on the first search result, confirmed it was the correct thing by comparing the URL addresses and embarked on this 20-ish minute walk. It was decently nice weather -- the thermometer on our school's gym building promised 21 degrees Celsius -- so this was actually quite enjoyable. My classmate who had also signed up asked whether I was walking or riding a bike -- since I don't have a bike, the choice was clear, and admittedly I wasn't even sure whether it was worth it to ride a bike for such a short trip.
+
+I arrived to Ung Struer, Skolegade 5A, at about 3:40 pm. The class was supposed to start at 4 pm, so I was right on time. I tried walking through the not-too-big building to find the correct classroom. Ultimately, when I was unsuccessful and it was already getting a little late, I decided to ask a woman I met on the hallway (in Danish). Unfortunately she didn't know and told me to go ask the receptionist. The receptionist was very nice, she showed me a screen with all events taking place today and tomorrow and their room numbers. My Danish course wasn't one of the displayed ones however, so I showed her the website of Ung-Struer saying it was there, on that day, at 4 pm. She had to check with her colleague, and after that she told me that there was no Danish course here.
+
+As it turned out, Ung Struer had recently moved to Park Alle (1.6 km away -- it was approximately 3:50 pm). I looked at the website once again, and sure enough, in the footer it confirmed that indeed. (Funnily enough, when I was looking at their website yesterday looking for an address, I couldn't find that.) Having come to terms with the fact that I likely won't make it anyway, I was getting ready to just walk the same route back home. (The bike ride made a whole lot more sense now.) The lady at reception had just begun to put on her jacket -- it was 4 pm after all -- and just to make sure (I didn't quite catch everything she said) I asked whether I should just go. 
+
+To my surprise, a few minutes ago I unknowingly agreed to her driving me there, as she was driving home anyway and to my luck went the same direction as Park Alle. During the 5-ish minute drive, we engaged in small talk (in Danish) -- she asked me where I was from, how long was I in Denmark already, and didn't believe me when I said I had been here for just over a month, because my Danish was allegedly so great she understood everything I said (unfortunately the same thing couldn't be said about me). After that (and many "undskyld"s during that), we arrived in front of Parkskolen -- which otherwise seems to be a kindergarten / primary school --, I was instructed about where the entrance is, and I went on my merry way. The time was 3:55 pm. Tight, but manageable. To my disadvantage, it was a huge school and there were no obvious pointers to the correct classroom nor anybody I could ask, so I just wandered around, looking into classrooms, not having met a single soul. 
+
+Annoyed, I gave up for the second time that day. It was 4 o'clock sharp, it would be awkward to come late for the very first lesson, and besides it would likely be too easy anyway. I turned around and started heading for the exit. When leaving, I met another one of my classmates (not to fuel stereotypes any more than necessary, but he's Spanish, it _was_ 4 pm and he _was_ just getting off his bike).
+
+It was also at this point that the classmate I was originally talking to texted me again. Apparently the lesson was cancelled last-minute and the course is supposed to start in October.
