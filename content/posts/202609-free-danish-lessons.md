@@ -17,4 +17,4 @@ To my surprise, a few minutes ago I unknowingly agreed to her driving me there, 
 
 Annoyed, I gave up for the second time that day. It was 4 o'clock sharp, it would be awkward to come late for the very first lesson, and besides it would likely be too easy anyway. I turned around and started heading for the exit. When leaving, I met another one of my classmates (not to fuel stereotypes any more than necessary, but he's Spanish, it _was_ 4 pm and he _was_ just getting off his bike).
 
-It was also at this point that the classmate I was originally talking to texted me again. Apparently the lesson was cancelled last-minute and the course is supposed to start in October.
+It was also at this point that the classmate I was originally talking to texted me again. Apparently the lesson was cancelled last-minute and the course is supposed to start in October. I'm just wondering how I would've handled the situation had I been an actual "begynder" (this is a rhetorical question -- I've yet to meet a Danish person who doesn't speak flawless English).
