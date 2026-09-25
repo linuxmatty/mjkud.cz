@@ -13,7 +13,13 @@ Enerfis, s. r. o. | June 2025 – present
 **AI Ambassador & Consultant**    
 Urban Wolf, s. r. o. | May 2025 – November 2025  
 
----
+
+## Academic Work  
+
+**Students' Professional Activities (SOČ)**  
+Field 1: Mathematics | December 2025 – February 2026  
+[Read here (cs)](/soc.pdf)
+
 
 ## Education
 <!-- 
@@ -26,7 +32,7 @@ IB Diploma Programme | August 2026 – present
 **Gymnázium Evolution, s. r. o.**    
 Eight-year General Gymnasium | September 2021 – June 2026  
 
----
+
 
 <!-- ## Courses & Certificates
 
@@ -45,7 +51,7 @@ Eight-year General Gymnasium | September 2021 – June 2026
 - Spanish (B1)
 - Danish (A2)
 - Chinese (A1)
-- Toki Pona (B1)
+- toki pona (B1)
 
 ### Programming & Markup Languages
 - Ruby, Ruby on Rails
@@ -61,7 +67,7 @@ Eight-year General Gymnasium | September 2021 – June 2026
 - Hugo
 - Apple Automator
 
----
+
 
 ## Projects
 
@@ -76,13 +82,10 @@ Eight-year General Gymnasium | September 2021 – June 2026
   - March 2025 – September 2025  
   - [letacky.mjkud.cz](https://letacky.mjkud.cz)
 
----
 
-## Competitions & Achievements
 
-- **Students' Professional Activities**
-  - Field no. 1: Mathematics & Data Science
-  - September 2025 – February 2026
+<!-- ## Competitions & Achievements
+
 - **National Finalist, 30th Edition of E.ON Eurorebus**
   - TERRA-KLUB
   - March 3, 2025
@@ -94,7 +97,7 @@ Eight-year General Gymnasium | September 2021 – June 2026
   - May 14, 2024
 - **Regional Round of the Spanish Language Olympiad**
   - DDM Modřany
-  - March 25, 2024
+  - March 25, 2024 -->
 
 <!-- 
 
