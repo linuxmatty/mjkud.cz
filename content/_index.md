@@ -47,7 +47,7 @@ figure {
 <section class="hero">
 <div>
 <h1 style="font-size: 4rem; line-height: 1.1">
-    <span style="color: #7a0000">Matyas&nbsp;Jan</span><br>
+    <span style="color: #7a0000">Matthias&nbsp;Jan</span><br>
     Kudlacek
 </h1>
 
@@ -56,7 +56,7 @@ figure {
 
 <figure>
     <picture>
-      <img src="/plenarni4.jpg" alt="Matyas Jan Kudlacek" loading="eager" width="300" height="420" style="border-radius: 1rem;">
+      <img src="/plenarni4.jpg" alt="Matthias Jan Kudlacek" loading="eager" width="300" height="420" style="border-radius: 1rem;">
     </picture>
 </figure>
 </div>
