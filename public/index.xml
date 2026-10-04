@@ -10,9 +10,16 @@
 		
 		
 		
-			<lastBuildDate>Wed, 23 Sep 2026 16:37:06 +0200</lastBuildDate>
+			<lastBuildDate>Sun, 04 Oct 2026 03:55:41 +0200</lastBuildDate>
 		
 			<atom:link href="https://matyasjankudlacek.cz/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>A Chromium excursion to make arguing more convenient</title>
+				<link>https://matyasjankudlacek.cz/posts/202610-chromium-excursion/</link>
+				<pubDate>Sun, 04 Oct 2026 03:55:41 +0200</pubDate>
+				<guid>https://matyasjankudlacek.cz/posts/202610-chromium-excursion/</guid>
+				<description>&lt;p&gt;Chatting with my friends on Instagram on my PC, in the middle of a heated argument. Click on reply&amp;hellip; wait&amp;hellip; still not seeing any progress, I just start writing&amp;hellip; when I&amp;rsquo;m done, I press enter. Maybe 5 seconds have passed and still nothing. Another second passes and the message finally gets displayed, first as a message being written, then as a message about to get sent, and after another wait it gets sent. Sending just one message took about 7 seconds, not counting the time it took me to write the message. That is outrageous!&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>The cost of free Danish lessons</title>
 				<link>https://matyasjankudlacek.cz/posts/202609-free-danish-lessons/</link>
